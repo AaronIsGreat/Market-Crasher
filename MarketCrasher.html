@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>Crash The Market</h3>
+
+<input type="text" id="myText" value="Your #">
+<input type="text" id="myBet" value="Wheels #">
+<p>Input your number, then the wheels number.</p>
+
+<button onclick="myFunction()">Calculate</button>
+
+<p id="demo"></p>
+
+<iframe src="http://wheeldecide.com/e.php?c1=0.1x&c2=0.5x&c3=2x&c4=5x&c5=10x&c6=50x&c7=0.1x&c8=0.5x&c9=2x&c10=5x&c11=10x&c12=50x&c13=0.1x&c14=0.5x&c15=2x&c16=5x&c17=10x&c18=0.1x&c19=0.5x&c20=2x&c21=5x&c22=10x&c23=0.1x&c24=0.5x&c25=2x&c26=5x&c27=10x&c28=0.1x&c29=0.5x&c30=2x&c31=5x&c32=0.1x&c33=0.5x&c34=2x&c35=5x&c36=0.1x&c37=0.5x&c38=2x&c39=5x&c40=0.1x&c41=0.5x&c42=2x&c43=5x&c44=0.1x&c45=0.5x&c46=2x&c47=5x&c48=0.1x&c49=0.5x&c50=2x&c51=5x&c52=0.1x&c53=0.5x&c54=2x&c55=0.1x&c56=0.5x&c57=2x&c58=0.1x&c59=0.5x&c60=2x&c61=0.1x&c62=0.5x&c63=2x&c64=0.1x&c65=0.5x&c66=2x&c67=0.1x&c68=0.5x&c69=0.1x&c70=0.5x&c71=0.1x&c72=0.5x&c73=0.1x&c74=0.5x&c75=0.1x&c76=0.5x&c77=0.1x&c78=0.5x&c79=100x&col=wof&cols=1F4F00,2E7500,388E00,4EC600,58DF00,7AFF23,93FF56,B5FF8B&t=Roulette&time=15&tcol=D80202&width=800" width="500" height="500" scrolling="no" frameborder="0">
+</iframe>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myText").value;
+	var y = document.getElementById("myBet").value;
+    document.getElementById("demo").innerHTML = x;
+	document.getElementById("demo").innerHTML = y;
+	var z = x * y 
+	document.getElementById("demo").innerHTML = z;
+}
+</script>
+
+</body>
+</html>
